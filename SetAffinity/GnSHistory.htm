@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Version History - Get and Set CPU Affinity by Ed Wilk</title></head><body>
+
+<p style="font-family: Verdana;">
+<b><font color="#008080" size="4">Version History<a name="Get"> - Get</a> and Set CPU Affinity<br>
+</font></b><b><font size="2"> 
+by
+<a href="mailto:edgemeal_software@yahoo.com?subject=Get%20n%20Set%20CPU%20Affinity">Ed 
+Wilk</a> / <a href="../index.htm">Edgemeal 
+Software</a> <br>
+Freeware for Windows XP</font></b></p><hr style="font-family: Verdana;">
+<p style="font-family: Verdana;">
+
+<b><font size="2">==================<font color="#ff0000"><br>
+<span style="background-color: rgb(255, 255, 0);"><a name="Version_History_and__Notes:">Version History and&nbsp; Notes</a></span></font><br>
+==================</font></b></p>
+<p style="font-family: Verdana;"><font size="-1"><span style="font-weight: bold; color: rgb(51, 51, 255);">Oct. 20 , 2010</span> - Recompiled file to show correct version.</font><br>
+</p>
+<p style="font-family: Verdana;">
+
+<font size="2"><b><font color="#0000ff">v2.38.0<br>
+</font></b></font><font size="2">* Fix: Process handle not closed 
+after changing CPU affinity.</font></p>
+
+<p style="font-family: Verdana;">
+
+<font size="2"><b><font color="#0000ff">v2.37.0<br>
+</font></b></font><font size="2">* Added: Option to disable 
+animated tray icon (CPU Usage) and display default program icon.<br>
+&nbsp; <i>To change tray animation, right mouse click on the CPU usage graph in 
+the main program interface for menu.</i></font></p>
+<p style="font-family: Verdana;">
+
+<font size="2"><b><font color="#0000ff">v2.36.9<br>
+</font></b></font><font size="2">* Fix: Program Usage Graphs: 
+Positions were overlapping when closing one graph and opening another.</font></p>
+<p style="font-family: Verdana;">
+
+<font size="2"><b><font color="#0000ff">v2.36.8 to v2.36.0<br>
+</font></b></font><font size="2">* Fix: Program Usage Graphs,&nbsp; 
+tooltip to display PID was broken in v2.36.7.<br>
+* Added options to Program (CPU) 
+Usage Graphs: Remember positions, Captions On/Off/Transparent and more.<br>
+* Fix: Allowed opening multiple Program (CPU) Usage Graphs for the same file.</font><font size="2"><b><font color="#0000ff"><br>
+</font></b></font><font size="2">* Fix:&nbsp; Restoring to 
+desktop in Maximized state was incorrect size.<br>
+* Fix: When maximized, height/top 
+were incorrect if taskbar was at top of screen.<br>
+* Fix: Status bar not updating 
+after manually sorting the program list. (when 1 file selected)<br>
+* Code changes: String storage/retrieval class, sort engine.<br>
+* Change: Add favorite file dialog was limited to path length of 260 characters, 
+increased to 4096.<br>
+* Fix: Some created icons were not destroyed. (GDI objects/DestroyIcon).<br>
+* Adjusted privileges: handles 
+not closed after set.<br>
+* Changed and optimized code to get Process IDs, number of programs running.</font></p>
+<p style="font-family: Verdana;">
+
+<font size="2"><b><font color="#0000ff">v2.35</font></b></font><font size="2"><br>
+* Changed the code that get the names of the running processes.</font></p>
+<p style="font-family: Verdana;">
+
+<font size="2"><b><font color="#0000ff">v2.33</font></b></font><font size="2"><br>
+* Added program to Set Windows XP Services manually or to a group of services using 
+profiles.<br>
+* Added button to launch the new included Set Services program.<br>
+* Minor code optimizing.</font></p>
+<p style="font-family: Verdana;">
+
+<font size="2"><b><font color="#0000ff">v2.32<br>
+</font></b></font><font size="2">* Fix Status Bar: Selected file 
+info was no longer shown if the program list updated/changed.<br>
+* Fix annoyance: If main interface was open on desktop it would get focus if the 
+tray menu or a program usage graph was selected.<br>
+* Changes to interfaces. Program Usage Graphs updated. Main: Active/Non-Active 
+Title bar, Status bar, Color options.</font></p>
+<p style="font-family: Verdana;">
+
+<font size="2"><b><font color="#0000ff">v2.31</font><font color="#ff00ff">.02/03</font></b></font><font color="#000000" size="2"><br>
+* Minor interface &amp; mouse wheel code changes.<br>
+</font><font size="2">* Bug Fix:&nbsp;Code to get file icons was 
+incomplete and could possibly cause an error if program was used for an extended 
+period of time.</font></p>
+<p style="font-family: Verdana;">
+
+<font size="2"><b><font color="#0000ff">v2.30.</font><font color="#ff0000">12&nbsp; to .01<br>
+</font></b></font><font color="#000000" size="2">* Added option to 
+override Auto Set Affinity setting on start up.</font><font size="2"><b><font color="#ff0000"><br>
+</font></b></font><font color="#000000" size="2">* Added option to disable 
+the fade in/out effect of interface when minimized/restored.<br>
+* Added option to disable 
+cache of Program list icons.</font><font size="2"><font color="#000000"><br>
+* Interface updates, Replaced "Sort by Affinity" checkboxes with list headers. (see
+</font>Sorting Lists by Affinity<font color="#000000">)<br>
+* Files selected in 
+Program/Favorite lists now stay selected when list is updated. <br>
+</font>* Optimize code for get/sort affinity.</font><font color="#000000" size="2"><br>
+* Added: Horizontal 
+meters to display average CPU usage.<br>
+* Optimize code for when minimized. (updating CPU avg/usage/graphs in interface)<br>
+* Improved 
+caching/loading of file icons. <br>
+* Optimize code for tray icon. <br>
+* ReFix: Error message dialog was hidden behind program if 
+"Always on Top" was enabled.<br>
+* Fix: On start up the CPU usage averages were slightly off.<br>
+* Added: Option to turn off the confirm dialog when removing favorites.<br>
+* Added: Option to confirm setting a programs Priority.<br>
+* Fix bug in v2.30: Hiding 
+a file that was already hidden was added to Ignore_list file prefixed with the "&lt;" character.</font></p>
+<p style="font-family: Verdana;">
+
+<font color="#0000ff" size="2"><b>v2.30</b><br>
+</font><font color="#000000" size="2">* New: Added option to start with Windows.<br>
+* New: Add a file to favorites using Windows browse for file dialog.<br>
+* New: Graph CPU usage of individual programs. (See<b> </b>"Program Usage 
+Graph")<br>
+* New: Access to Help file, Reset user settings, Clear cache, Visit my site and 
+Email.<br>
+* New: Adjust interface color with RGB and brightness controls. (See "Interface 
+Color")<br>
+* Update: Set tray icon and interface CPU graph colors separately, added 3 more 
+colors.<br>
+* Update: You can now add a favorite from program list even if it is hidden (Auto 
+un-hides file).<br>
+* Update: Hide button is now available when Show All is enabled, using un-hide 
+doesn't disable Show All.<br>
+* Fix: Drag/Drop into favorites - Affinity was set even if Auto Set Affinity was 
+disabled.<br>
+* Fix: Drag/Drop into favorites - Now auto un-hides dropped files if hidden in 
+programs list.</font></p>
+<hr style="font-family: Verdana;">
+<p style="font-family: Verdana;">
+<font size="2">===================<br>
+<span style="background-color: rgb(255, 255, 0);">
+<font color="#ff0000"><b>Terms of Agreement: </b></font></span><br>
+===================<br>
+<br>
+<b>By using the included Freeware, you agree to the following terms.</b>.. <br>
+<br>
+<b>1)</b> You may use this software freely and with no charge. <br>
+<br>
+<b>2)</b> <b>You MAY NOT redistribute this software</b> (for example to a web 
+site) <br>
+without written permission from the author. Failure to do so is a <br>
+violation of copyright laws.<br>
+<br>
+<b>3)</b> You will abide by any additional copyright restrictions which the <br>
+author may have included in this software package.<br>
+<br>
+<br>
+===========<br>
+<span style="background-color: rgb(255, 255, 0);">
+<font color="#ff0000"><b>Disclaimer:</b></font></span><br>
+===========<br>
+<b>Users of this software must accept this disclaimer of warranty:</b><br>
+The software is supplied as is. The author disclaims all warranties, <br>
+expressed or implied, including, without limitation, the warranties of <br>
+merchantability and of fitness for any purpose. The author assumes no <br>
+liability for damages, direct or consequential, which may result from the <br>
+use of said software.</font></p>
+<hr style="font-family: Verdana;">
+<p style="font-family: Verdana;">
+<font size="2">==============<font color="#ff0000"><b><br>
+<span style="background-color: rgb(255, 255, 0);">Special Thanks to:</span></b></font><br>
+==============<font color="#000000"><br>
+Matt Pietrek - Using PDH.DLL to get CPU usage per core, </font><a href="http://www.microsoft.com/msj/0398/hood0398.aspx">Article</a>.<br>
+<font color="#000000">Mike D Sutton - For all 
+his help on how to create icons on the fly with transparency.</font>
+<a href="http://www.mvps.org/EDais/">Mikes home page</a> </font>
+<font color="#000000" size="2">
+<br>
+<br>
+<b>And all the users who have sent us feedback!</b></font></p>
+<hr style="font-family: Verdana;">
+<p style="font-family: Verdana;"><font size="2"> 
+<a href="GnSHistory.htm#Get">Back to Top</a></font></p>
+<p style="font-family: Verdana;" align="center"> &nbsp;</p>
+<p style="font-family: Verdana;" align="center"> <font size="2">© 
+<a href="../index.htm">Edgemeal 
+Software</a> 2008</font></p>
+
+
+
+
+</body></html><script type="text/javascript">
+  var vglnk = { api_url: '//api.viglink.com/api',
+                key: 'a7493e2870c43d31023d403e36d7cc81' };
+
+  (function(d, t) {
+    var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+    s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+             '//cdn.viglink.com/api') + '/vglnk.js';
+    var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+  }(document, 'script'));
+</script>
